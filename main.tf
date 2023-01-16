@@ -2,7 +2,8 @@
     terraform {
        backend "remote" {
          # The name of your Terraform Cloud organization.
-         organization = "matavtr-cloud"
+           hostname = "app.terraform.io"
+           organization = "matavtr-cloud"
 
          # The name of the Terraform Cloud workspace to store Terraform state files in.
          workspaces {
